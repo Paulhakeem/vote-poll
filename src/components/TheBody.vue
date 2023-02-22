@@ -11,7 +11,7 @@
       <h2 class="text-2xl font-bold">Lets create your own polling app with fast poll</h2>
     <div class="p-3 space-y-2">
     <p class="p-3">Sign Up and enjoy the Fast Poll app.</p>
-      <RouterLink to="/login">
+      <RouterLink to="/signup">
     <button class="bg-[#0FCB18] text-white rounded-xl p-3 w-full sm:w-full">Create Poll</button>
       </RouterLink>
     </div>
