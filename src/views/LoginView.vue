@@ -12,13 +12,6 @@
     return auth.currentUser
   })
 
-  onBeforeMount(() => {
-    if (auth.currentUser) {
-       router.push({
-      path: '/createpoll'
-    })
-    }
-  })
   
   const formDetails = ref({
     email: '',
