@@ -2,7 +2,7 @@
  import { RouterLink, useRouter } from 'vue-router'
   import { auth } from '../firebaseConfig'
   import { ref } from 'vue'
-  import { getAuth, createUserWithEmailAndPassword, GoogleAuthProvider, GithubAuthProvider,signInWithPopup   } from 'firebase/auth'
+  import { getAuth, createUserWithEmailAndPassword, GoogleAuthProvider, GithubAuthProvider,signInWithPopup} from 'firebase/auth'
 
   const router = useRouter()
   const provider = new GoogleAuthProvider()
